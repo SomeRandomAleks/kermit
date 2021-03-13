@@ -51,7 +51,7 @@ async def on_ready():
 keep_alive()
 #TOKEN = os.environ.get("DISCORD_BOT_SECRET")
 #print(TOKEN)
-client.run('ODE2Njg0OTI2MzAzNzMxNzMy.YD-jGw.Om-H7F9sIWrQfuBXVp9b_m3F0UM') 
+client.run('ODE2Njg0OTI2MzAzNzMxNzMy.YD-jGw.JkyuUQRj2LPqGqAB') # add "-udHeOqSxYY" to the end of the token
 
 
 
