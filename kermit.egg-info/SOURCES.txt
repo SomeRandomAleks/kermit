@@ -1,0 +1,7 @@
+kermit.py
+setup.py
+kermit.egg-info/PKG-INFO
+kermit.egg-info/SOURCES.txt
+kermit.egg-info/dependency_links.txt
+kermit.egg-info/requires.txt
+kermit.egg-info/top_level.txt

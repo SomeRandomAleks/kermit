@@ -1,0 +1,94 @@
+Idea 1:
+
+Kermit accounts where kermits fight eachother
+the winning kermit gets a certain number of cash deposited into their account
+Cash is represented with "©"
+
+Add an embed for whenever a kermit is gonna fight, but the kermit they want to fight will also have to accept the fight or else it won't work
+
+ECONOMY LEVELS:
+
+< © 90,000 | Poor Class
+~ © 90,000 - © 110,000 | Middle Class
+> © 110,000 | Upper Class
+
+> © 1,000,000 | God Class
+
+Anyone in God Class can virtually change the economy and how it works
+They can't change it by too much though, only around © 5,000 + or - and they have a 1 week cooldown
+Example:
+
+The economy is defaulted to these levels:
+
+< © 90,000 | Poor Class
+~ © 90,000 - © 110,000 | Middle Class
+> © 110,000 | Upper Class
+
+> © 1,000,000 | God Class
+
+
+If a God Class member changes the economy, they can only change it by © 5,000
+
+If someone adds © 5,000 to the default economy then the levels will change to this:
+
+< © 95,000 | Poor Class
+~ © 95,000 - © 115,000 | Middle Class
+> © 115,000 | Upper Class
+
+> © 1,005,000 | God Class
+
+Middle Class might not be affected since they will also get their Middle Class max threshold increased
+In fact, the only members that will be affected by this change will be the Poor Class since they will need © 5,000 more to get to Middle Class
+
+
+PLAYER CASH:
+
+If a player wants to get more cash they can do so by battling other players
+Battles go like this:
+
+User: !battle <@member> <©>
+Bot: Great! <@member> do you want to battle <User> or do you want to increase the cash amount?
+
+
+The amount of cash will be the amount each player will be playing for, it cannot be less than © 5,000
+If <@member> wants to increase the gamble then they will say "increase" then the new amount
+
+Example:
+
+User: !battle <@member> 5,000
+Bot: Great! <@member> do you want to battle <User> or do you want to increase the cash amount?
+<@member>: increase 10,000
+Bot: Great! User do you want to keep this amount or increase it?
+
+a user can cancel the command by using "cancel"
+Note:
+
+A user can cancel the command with "cancel" if the member they want to bettle hasn't answered yet
+However, if the member they want to battle increases the amount, then the user will have to use "forfeit" to cancel the command
+If a user uses "forfeit," then they will lose the amount they originally wanted to battle for
+
+Example:
+
+User: !battle <@member> 5,000
+Bot: Great! <@member> do you want to battle <User> or do you want to increase the cash amount?
+<@member>: increase 10,000
+User: forfeit
+Bot: User has lost © <©>
+
+
+When the battle starts, a random fight picture will be displayed
+When the battle ends and a winner has been chosen the winner will be rewarded with the amount the battle started with
+The loser of the battle will lose the amount they each played for
+
+
+
+COLORS:
+
+Error - e32424
+Success - 30e024
+Account Registered - e0e024
+Battle - 2453ff
+Profile - ffa724
+
+Hex colors for each topic
+
